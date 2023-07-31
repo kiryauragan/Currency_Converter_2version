@@ -24,7 +24,6 @@
       <div class="amount">
         <p>Amount</p>
         <div class="amount-from">
-          <img class="country" src="./img/usa.svg" alt="UA" />
           <select>
             <option value="USD" selected>USD</option>
             <option value="EUR">EUR</option>
@@ -42,7 +41,6 @@
 
         <p>Converted Amount</p>
         <div class="amount-to">
-          <img class="country" src="./img/ua.svg" alt="USA" />
           <select>
             <option value="USD">USD</option>
             <option value="EUR">EUR</option>
@@ -55,8 +53,8 @@
         </div>
       </div>
 
-      <div class="exchange-rate">1 USD = 36.92 UAH</div>
-      <button>Get Exchange Rate</button>
+      <div class="exchange-rate" id="exchangeRate">Geting exchange rate...</div>
+      <button id="getExchangeRate">Get Exchange Rate</button>
     </div>
 
     <script src="script.js"></script>
