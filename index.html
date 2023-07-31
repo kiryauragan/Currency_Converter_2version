@@ -19,12 +19,15 @@
         <p>
           Check live rates, set rate alerts, receive notifications and more.
         </p>
+        <p id="currentDate">
+          Current currency date: <span id="dateTimeValue"></span>
+        </p>
       </div>
 
       <div class="amount">
         <p>Amount</p>
         <div class="amount-from">
-          <select>
+          <select id="fromCurrency">
             <option value="USD" selected>USD</option>
             <option value="EUR">EUR</option>
             <option value="UAH">UAH</option>
@@ -32,6 +35,7 @@
             <option value="PLN">PLN</option>
             <option value="CAD">CAD</option>
           </select>
+          <img id="fromFlag" src="img/usd.svg" alt="USD" />
           <input type="text" value="1.00" />
         </div>
 
@@ -41,7 +45,7 @@
 
         <p>Converted Amount</p>
         <div class="amount-to">
-          <select>
+          <select id="toCurrency">
             <option value="USD">USD</option>
             <option value="EUR">EUR</option>
             <option value="UAH" selected>UAH</option>
@@ -49,11 +53,14 @@
             <option value="PLN">PLN</option>
             <option value="CAD">CAD</option>
           </select>
+          <img id="toFlag" src="img/uah.svg" alt="UAH" />
           <input type="text" />
         </div>
       </div>
 
-      <div class="exchange-rate" id="exchangeRate">Geting exchange rate...</div>
+      <div class="exchange-rate" id="exchangeRate">
+        Getting exchange rate...
+      </div>
       <button id="getExchangeRate">Get Exchange Rate</button>
     </div>
 

@@ -19,7 +19,6 @@ body {
 }
 
 .converter {
-
 }
 
 .converter h2 {
@@ -42,7 +41,7 @@ body {
 
 .amount {
   background: #fff;
-  margin: 41px 20px 20px 20px;
+  margin: 40px 20px 20px 20px;
   padding: 20px 20px;
   border-radius: 20px;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.05);
@@ -70,18 +69,19 @@ body {
   border-radius: 5px;
 }
 
-.amount select{
+.amount select {
   width: auto;
   align-items: center;
 }
 
 select {
-  color: #3C3C3C;
+  font-size: 18px;
+  color: #3c3c3c;
 }
 
-.amount input{
+.amount input {
   border-radius: 7px;
-  background: #EFEFEF;
+  background: #efefef;
   text-align: right;
   font-size: 20px;
   font-weight: 700;
@@ -90,7 +90,7 @@ select {
 }
 
 .amount input:hover {
-  background: #fff;
+  background: rgb(181, 243, 111);
 }
 
 .icon {
@@ -99,19 +99,19 @@ select {
   margin: 10px 10px;
 }
 
-.exchange-rate{
+.exchange-rate {
   font-size: 17px;
   margin: 20px 0 30px;
 }
-button{
+button {
   height: 52px;
   color: #fff;
   font-size: 17px;
   cursor: pointer;
-  background: #675AFE;
+  background: #675afe;
   width: 70%;
   margin-bottom: 50px;
 }
-button:hover{
+button:hover {
   background: #4534fe;
 }
